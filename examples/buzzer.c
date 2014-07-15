@@ -9,14 +9,14 @@
 #include <wiringPi.h>
 #include <softTone.h>
 
-#define	PIN	14
+#define	PIN	11
 
 int scale [13] = {262, 277, 294, 311, 330, 349, 370, 392, 415, 440, 466, 494, 524} ;
 
 int main ()
 {
   int i ;
-
+    
   wiringPiSetup () ;
 
   softToneCreate (PIN) ;
