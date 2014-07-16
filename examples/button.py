@@ -4,7 +4,6 @@
 # Author : Zachary Igielman
 
 import RPi.GPIO as GPIO
-import smbus
 import time
 from Adafruit_I2C import Adafruit_I2C
 from Adafruit_MCP230XX import *
