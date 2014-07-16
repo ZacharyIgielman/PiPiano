@@ -11,7 +11,7 @@ int main (void)
   int i;
 
   wiringPiSetup() ;
-  mcp23017Setup(65, 0x20) ;
+  mcp23017Setup(100, 0x20) ;
 
   printf ("Raspberry Pi - MCP23017 Test\n") ;
 
@@ -20,21 +20,21 @@ int main (void)
 
   for (;;)
   {
-    digitalWrite(80,1);
-    digitalWrite(79,0);
-    digitalWrite(78,0);
+    digitalWrite(115,1);
+    digitalWrite(114,0);
+    digitalWrite(113,0);
     delay(3000);
-    digitalWrite(80,1);
-    digitalWrite(79,1);
-    digitalWrite(78,0);
+    digitalWrite(115,1);
+    digitalWrite(114,1);
+    digitalWrite(113,0);
     delay(1000);
-    digitalWrite(80,0);
-    digitalWrite(79,1);
-    digitalWrite(78,1);
+    digitalWrite(115,0);
+    digitalWrite(114,0);
+    digitalWrite(113,1);
     delay(5000);
-    digitalWrite(80,0);
-    digitalWrite(79,1);
-    digitalWrite(78,0);
+    digitalWrite(115,0);
+    digitalWrite(114,1);
+    digitalWrite(113,0);
     delay(1000);
   }
   return 0 ;

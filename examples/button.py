@@ -6,7 +6,7 @@
 import RPi.GPIO as GPIO
 import time
 from Adafruit_I2C import Adafruit_I2C
-from Adafruit_MCP230XX import *
+from Adafruit_MCP230xx import *
 
 myBus=""
 if GPIO.RPI_REVISION == 1:
@@ -26,6 +26,6 @@ while True:
     print("Buttons pressed: "),
     i=0
     while i<13:
-        if (mcp.input(i) >> 3):
-            print(i + " "),
+        if not (mcp.input(i)):
+            print(str(i) + " "),
         i=i+1
