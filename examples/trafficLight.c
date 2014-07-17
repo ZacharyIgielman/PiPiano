@@ -6,6 +6,13 @@
 #include <wiringPi.h>
 #include <mcp23017.h>
 
+void light(int a, int b, int c)
+{
+  digitalWrite(115,a);
+  digitalWrite(114,b);
+  digitalWrite(113,c);
+}
+
 int main (void)
 {
   int i;
@@ -15,26 +22,18 @@ int main (void)
 
   printf ("Raspberry Pi - MCP23017 Test\n") ;
 
-  for (i = 78 ; i < 81 ; i++)
+  for (i = 113 ; i < 116 ; i++)
     pinMode(i, OUTPUT) ;
 
   for (;;)
   {
-    digitalWrite(115,1);
-    digitalWrite(114,0);
-    digitalWrite(113,0);
+    light(1,0,0);
     delay(3000);
-    digitalWrite(115,1);
-    digitalWrite(114,1);
-    digitalWrite(113,0);
+    light(1,1,0);
     delay(1000);
-    digitalWrite(115,0);
-    digitalWrite(114,0);
-    digitalWrite(113,1);
+    light(0,0,1);
     delay(5000);
-    digitalWrite(115,0);
-    digitalWrite(114,1);
-    digitalWrite(113,0);
+    light(0,1,0);
     delay(1000);
   }
   return 0 ;
