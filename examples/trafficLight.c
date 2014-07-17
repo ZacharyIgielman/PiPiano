@@ -8,9 +8,9 @@
 
 void light(int a, int b, int c)
 {
-  digitalWrite(115,a);
+  digitalWrite(113,a);
   digitalWrite(114,b);
-  digitalWrite(113,c);
+  digitalWrite(115,c);
 }
 
 int main (void)
