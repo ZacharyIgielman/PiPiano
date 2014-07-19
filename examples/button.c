@@ -2,6 +2,10 @@
 //detects button presses and prints which button is pressed
 //Author : Zachary Igielman
 
+//to run:
+//gcc -Wall -o button button.c -lwiringPi
+//sudo ./button
+
 #include <stdio.h>
 #include <wiringPi.h>
 #include <mcp23017.h>

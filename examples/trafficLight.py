@@ -3,6 +3,9 @@
 # loops through red, yellow, green like a traffic light
 # Author : Zachary Igielman
 
+# to run:
+# sudo python trafficLight.py
+
 import RPi.GPIO as GPIO
 import time
 from Adafruit_I2C import Adafruit_I2C

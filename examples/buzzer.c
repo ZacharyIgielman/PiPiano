@@ -2,6 +2,10 @@
 //plays a scale on the buzzer
 //Author : Zachary Igielman
 
+//to run:
+//gcc -Wall -o buzzer buzzer.c -lwiringPi
+//sudo ./buzzer
+
 #include <stdio.h>
 #include <errno.h>
 #include <string.h>
@@ -15,19 +19,19 @@ int scale [13] = {262, 277, 294, 311, 330, 349, 370, 392, 415, 440, 466, 494, 52
 
 int main ()
 {
-  int i ;
+    int i ;
 
-  wiringPiSetup () ;
+    wiringPiSetup () ;
 
-  softToneCreate (PIN) ;
+    softToneCreate (PIN) ;
 
-  for (;;)
-  {
-    for (i = 0 ; i < 13 ; ++i)
+    for (;;)
     {
-      printf ("%3d\n", i) ;
-      softToneWrite (PIN, scale [i]) ;
-      delay (500) ;
+        for (i = 0 ; i < 13 ; ++i)
+        {
+            printf ("%3d\n", i) ;
+            softToneWrite (PIN, scale [i]) ;
+            delay (500) ;
+        }
     }
-  }
 }

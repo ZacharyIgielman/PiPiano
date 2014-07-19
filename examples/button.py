@@ -3,6 +3,9 @@
 # detects button presses and prints which button is pressed
 # Author : Zachary Igielman
 
+# to run:
+# sudo python button.py
+
 import RPi.GPIO as GPIO
 import time
 from Adafruit_I2C import Adafruit_I2C
