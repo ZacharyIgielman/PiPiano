@@ -30,7 +30,7 @@ pygame.mixer.set_num_channels(13)
 myBus=""
 if GPIO.RPI_REVISION == 1:
     myBus=0
-elif GPIO.RPI_REVISION == 2:
+else:
     myBus=1
 
 mcp = Adafruit_MCP230XX(busnum = myBus, address = 0x20, num_gpios = 16)

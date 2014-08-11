@@ -8,7 +8,7 @@
 
 import RPi.GPIO as GPIO, time, sys
 
-buzzer_pin=23
+buzzer_pin=26
 
 GPIO.setmode(GPIO.BOARD)
 

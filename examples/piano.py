@@ -12,7 +12,7 @@ from Adafruit_I2C import Adafruit_I2C
 from Adafruit_MCP230xx import *
 import thread
 
-buzzer_pin=23
+buzzer_pin=26
 
 GPIO.setmode(GPIO.BOARD)
 
@@ -25,7 +25,7 @@ scale=[262,294,330,349,392,440,494,524,277,311,370,415,466]
 myBus=""
 if GPIO.RPI_REVISION == 1:
     myBus=0
-elif GPIO.RPI_REVISION == 2:
+else:
     myBus=1
 
 mcp = Adafruit_MCP230XX(busnum = myBus, address = 0x20, num_gpios = 16)

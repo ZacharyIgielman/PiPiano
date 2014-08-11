@@ -35,7 +35,7 @@ void *metronome()
     return NULL;
 }
 
-#define	PIN	14
+#define	PIN	11
 
 int scale [13] = {262,294,330,349,392,440,494,524,277,311,370,415,466} ;
 int last[13]={0,0,0,0,0,0,0,0,0,0,0,0,0};
