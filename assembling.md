@@ -1,11 +1,14 @@
-In this tutorial, you will learn how to solder and assemble PiPiano
+**In this tutorial, you will learn how to solder and assemble PiPiano**
 
-What is soldering?
+# What is soldering?
+We just don't know
 
-Explain how to solder
+## How to solder
 
-Parts list and identifier
 
-Step by step instructions for soldering PiPiano
+# Parts list
+
+# Soldering the PiPiano
+
 
 Next step: setting up software (softwareSetup.md)
