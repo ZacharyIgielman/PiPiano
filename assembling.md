@@ -8,6 +8,7 @@ is used to form an electrical, rather than a physical, connection.
 ## How to solder
 The best way to show you how to solder is to get you to watch a video. Carrie Anne Philbin
 has done an excellent video in her Geek Gurl Diaries series.
+
 ![Learn to Solder with Carrie Anne](https://lh4.googleusercontent.com/proxy/p2tTllwxErbkxCLyGOQbmaLiNrWtC7TQm5s5vKxWBBOHZoiu1P5yb50LC4sUWUH9Tnxg9aqWf6boo669VpfcnMIf4LA=w506-h285-n)
 
 [Watch Carrie Anne's Learn to Solder video](http://www.youtube.com/watch?v=P5L4Gl6Q4Xo)
