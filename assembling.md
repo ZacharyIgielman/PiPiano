@@ -56,6 +56,7 @@ bottom hole. Again, bend the legs away to hold it in place. Snip the legs once s
 (to the right). Be gentle, but firm. If you need to bend the pins, do so by pressing them against your table,
 making sure you apply equal pressure to all the pins. Do it a bit at a time - it's very difficult
 to unbend them! The chip will be _upside down_.
+
 ![Push the chip in upside down](https://lh4.googleusercontent.com/-hTVWVmeFcqc/VCCJg2DZuFI/AAAAAAAAQHk/gJ6sa3FKBbU/w649-h865-no/20140813_213044.jpg)
 
 1. Carefully solder the buzzer wires on. The red wire goes at the top. BluTack will help again. Snip the ends off.
