@@ -13,9 +13,29 @@ has done an excellent video in her Geek Gurl Diaries series.
 
 [Watch Carrie Anne's Learn to Solder video](http://www.youtube.com/watch?v=P5L4Gl6Q4Xo)
 
+For a further look at soldering, check out [David Stillman's video](https://www.youtube.com/watch?v=f95i88OSWB4) which gives additional tips on making a good solder joint.
+
+If you make any mistakes, you should [watch this slightly longer video](https://www.youtube.com/watch?v=QL86gO9mfT8) which shows how to correct them.
+
+If you'd prefer to read how to do soldering rather than watch these videos, [check out this comic book called "Soldering is Easy"](http://mightyohm.com/blog/2011/04/soldering-is-easy-comic-book/).
+
+*Thanks to Matt Hawkins at [Raspberry Pi Spy](http://www.raspberrypi-spy.co.uk/) for spotting these last few links.*
+
 # Parts list
 ![Contents](https://lh5.googleusercontent.com/-_ZR2-0ZpTEU/VCCJg1BuDlI/AAAAAAAAQHk/-BBBe-tqOdI/w1280-h720-no/20140813_185400.jpg)
+
+* Main circuit board
+* Piezo buzzer
+* GPIO header
+* Chip socket
+* MCP23017 port expander chip
+* 13 x tactile buttons
+* 1 red LED, 1 yellow LED, 1 green LED
+* 1 capacitor
+* 1 resistor network
+
 ![Main board](https://lh3.googleusercontent.com/-bAdWL0yfNns/VCCJg5jJIgI/AAAAAAAAQHk/lMhdz_zQQss/w1153-h865-no/20140813_185623.jpg)
+*Main circuit board*
 
 # Soldering the PiPiano
 1. Start with the GPIO header. As it says, you place the black part under the board, push the pins through
