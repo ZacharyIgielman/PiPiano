@@ -35,12 +35,12 @@ while i<13:
 
 # Loop forever
 while True:
-	# Print a blank line to help us read the screen easier
+    # Print a blank line to help us read the screen easier
     print("")
     # Print "Buttons pressed:". The comma tells Python not to print a carriage return character
     print("Buttons pressed: "),
 
-	# Read each of the 13 buttons on the PiPiano and if any are pressed print out the number of the button 
+    # Read each of the 13 buttons on the PiPiano and if any are pressed print out the number of the button 
     i=0
     while i<13:
         if not (mcp.input(i)):
