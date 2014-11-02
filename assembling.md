@@ -84,4 +84,7 @@ to unbend them! The chip will be _upside down_.
 
 ![The PiPiano in place](https://lh5.googleusercontent.com/-v2NyAO6Ko6s/VCCJgzHh-hI/AAAAAAAAQHk/pvfpfymjbJY/w1153-h865-no/20140813_213503.jpg)
 
-Next step: setting up software (softwareSetup.md)
+# Amplification
+The speaker doesn't have much power. I found that taping it to an empty drink can produces a much better sound. Try it!
+
+Next step: [Setting up the software](softwareSetup.md)

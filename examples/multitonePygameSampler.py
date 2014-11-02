@@ -7,7 +7,7 @@
 # sudo python multitonePygameSampler.py
 
 # to change volume:
-# amizer cset numid=1 -- 80%
+# amixer cset numid=1 -- 80%
 
 # to change audio outout for Pi (audio jack/HDMI)
 # amixer cset numid=3 0 (for auto-detect)
