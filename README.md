@@ -30,7 +30,6 @@ cd examples
 ### Exploring the example code
 The following examples are provided in both Python and C. If you do not have much experience
 programming, we recommend starting with Python as it is slightly easier to understand.
-Each example file contains comments which explains what it does.
 
 * [button.py](examples/button.py) / [button.c](examples/button.c) - a script that detects what buttons have been pressed on your PiPiano
 * [buzzer.py](examples/buzzer.py) / [buzzer.c](examples/buzzer.c) - a script that plays sounds through your PiPiano's buzzer
@@ -40,7 +39,7 @@ Each example file contains comments which explains what it does.
 The following additional Python example is provided:
 
 * [multitonePygameSampler.py](examples/multitonePygameSampler.py) - a script which detects button presses and uses Pygame to play the appropriate sound file through the Pi's headphone socket
-* [genSonicPy.py](examples/genSonicPy.py) - a script which detects button presses and creates a text file containing instructions for [Sonic Pi](http://sonic-pi.net/).
+* [genSonicPi.py](examples/genSonicPi.py) - a script which detects button presses and creates a text file containing instructions for [Sonic Pi](http://sonic-pi.net/).
 
 You can explore all of the code files using your favourite editor. First of all, change
 into the examples folder by typing:
@@ -61,6 +60,10 @@ For example:
 ```
 nano piano.py
 ```
+
+Each example file contains comments which explains what it does. Comments in any of the
+Python files start with a '#' symbol. In C files, the comments start with '//'.
+
 
 ### Running the example code
 #### Python
