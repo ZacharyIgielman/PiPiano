@@ -70,8 +70,6 @@ thread.start_new_thread(metronome, ())
 
 try:
 	# Do the main loop (reading in button presses) forever
-	# ZACH - this needs to change to catch the KeyboardInterrupt exception 
-	# otherwise the file will never be closed when Ctrl-C is pressed
     while True:
         i=0
 
@@ -87,6 +85,6 @@ try:
         # button presses 
         file.write("sleep 0.05\n")
 
-finally:
+except:
 	# Close the file when the program finishes
     file.close()
