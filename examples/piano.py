@@ -38,11 +38,12 @@ else:
 # Start-up the chip on the PiPiano and specify the number of pins it has on it
 mcp = Adafruit_MCP230XX(busnum = myBus, address = 0x20, num_gpios = 16)
 
-# Set-up all the buttons as 'pull-ups' and then turn them all off.
+# Set-up all the buttons as 'pull-ups' and inputs
 i=0
 while i<13:
     mcp.pullup(i,1)
     i=i+1
+# Set up the LEDs as outputs
 i=13
 while i<16:
     mcp.config(i,0)
