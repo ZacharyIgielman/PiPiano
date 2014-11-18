@@ -26,8 +26,7 @@ else:
 # This communicates with the PiPiano chip and sets it up
 mcp = Adafruit_MCP230XX(busnum = myBus, address = 0x20, num_gpios = 16)
 
-# This bit of code loops through all the buttons and sets 'pull ups' on them
-# which tells the system to assume they are all 'off'
+# This bit of code loops through all the buttons, sets 'pull ups' on them and makes them inputs
 i=0
 while i<13:
     mcp.pullup(i,1)
