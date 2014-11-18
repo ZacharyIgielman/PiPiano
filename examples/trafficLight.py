@@ -22,7 +22,7 @@ else:
 # Initialise the chip on the PiPiano and specify how many pins it has
 mcp = Adafruit_MCP230XX(busnum = myBus, address = 0x20, num_gpios = 16)
 
-# Turn off all the pins on the chip
+# Setup the LED pins as outputs
 i=13
 while i<16:
     mcp.config(i,0)
