@@ -18,6 +18,7 @@ command line of your Pi:
 	* #blacklist spi-bcm2708
 	* #blacklist i2c-bcm2708
 * Press ctrl-X and then press Y and return to save.
+* sudo adduser pi i2c
 * Do sudo reboot
 
 Once booted back up, make sure you are connected to the internet. Then do the following from
