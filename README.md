@@ -36,7 +36,7 @@ programming, we recommend starting with Python as it is slightly easier to under
 * [trafficLight.py](examples/trafficLight.py) / [trafficLight.c](examples/trafficLight.c) - a script that displays a United Kingdom traffic light sequence using the LEDs on the PiPiano 
 * [piano.py](examples/piano.py) / [piano.c](examples/piano.c) - a script that detects button presses and plays the appropriate sound through the buzzer
 
-The following additional Python example is provided:
+The following additional Python examples are provided:
 
 * [multitonePygameSampler.py](examples/multitonePygameSampler.py) - a script which detects button presses and uses Pygame to play the appropriate sound file through the Pi's headphone socket
 * [genSonicPi.py](examples/genSonicPi.py) - a script which detects button presses and creates a text file containing instructions for [Sonic Pi](http://sonic-pi.net/).
