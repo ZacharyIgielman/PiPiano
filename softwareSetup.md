@@ -17,10 +17,10 @@ command line of your Pi:
 * Add a # character to the beginning of two lines so that they read:
 	* `#blacklist spi-bcm2708`
 	* `#blacklist i2c-bcm2708`
-* to get i2c working on **Raspberry Pi 2** if it does not work:
-	* `sudo nano /etc/modules`
+* to get i2c working on the latest Raspbian if it does not work:
+	* `sudo nano /boot/config.txt`
 	* Add this line:
-		* `device_tree_param=i2c1=on`
+		* `dtparam=i2c_arm=on`
 	* Press ctrl-X and then press Y and return to save.
 * Press ctrl-X and then press Y and return to save.
 * `sudo adduser pi i2c`
